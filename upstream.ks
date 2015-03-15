@@ -400,4 +400,6 @@ fi
 
 EOF
 
+%include custom/*.ks
+
 %end
