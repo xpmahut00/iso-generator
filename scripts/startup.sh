@@ -1,6 +1,6 @@
 #!/bin/bash -x
-echo `date` >> /var/log/htmtrade.log
-exec 1>> /var/log/htmtrade.log 2>&1
+echo `date` >> /var/log/startup.log
+exec 1>> /var/log/startup.log 2>&1
 
 # load our configuration
 touch .config
